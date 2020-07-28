@@ -101,7 +101,7 @@ namespace SocketServer
                 {
                     sListener.Bind(ipEndPoint);
                     sListener.Listen(10);
-                    //lb_server.Items.Add("Слушаем: " + ipEndPoint);
+                    lb_server.Items.Add("Слушаем: " + ipEndPoint);
 
                     // Начинаем слушать соединения
                     while (true)
@@ -118,7 +118,7 @@ namespace SocketServer
                         int bytesRec = handler.Receive(bytes);
 
                         var st = Encoding.UTF8.GetString(bytes, 0, bytesRec);
-
+                        lb_server.Items.Add(st);
 
                         data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
 

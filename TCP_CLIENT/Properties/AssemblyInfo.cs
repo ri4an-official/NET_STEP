@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Sched")]
+[assembly: AssemblyTitle("TCP_CLIENT")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Sched")]
+[assembly: AssemblyProduct("TCP_CLIENT")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("259438d3-1f16-491d-be90-ccd39a4ddf01")]
+[assembly: Guid("5160dfa8-3b4d-4d0d-aa11-ca4a3c28d4cc")]
 
 // Version information for an assembly consists of the following four values:
 //

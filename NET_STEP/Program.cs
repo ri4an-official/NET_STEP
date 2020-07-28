@@ -171,6 +171,41 @@ namespace NET_STEP
 
         static void Main(string[] args)
         {
+            //MemoryStream ms = new MemoryStream();            
+            //FileStream fs = new FileStream(@"C:\Temp\sample.txt", FileMode.Open);
+            //BinaryWriter bw = new BinaryWriter(ms);
+            //byte[] bHeader1 = new byte[100];
+            //byte[] bHeader2 = new byte[100];
+            //string sHeader1 = "Header1";
+            //string sHeader2 = "Header2";
+            //for (int i = 0; i < sHeader1.Length; i++)
+            //{                
+            //    bHeader1[i] = (byte)sHeader1[i];
+            //}
+            //for (int i = 0; i < sHeader1.Length; i++)
+            //{
+            //    bHeader2[i] = (byte)sHeader2[i];
+            //}
+
+
+            //bw.Write(bHeader1);
+            //bw.Write(bHeader2);
+            //byte[] bytes = new byte[fs.Length];
+            //fs.Read(bytes, 0, (int)fs.Length);
+            //bw.Write(bytes);
+
+
+            //byte[] bytes2 = ms.ToArray().Skip<byte>(200).ToArray();
+
+
+
+            //File.WriteAllBytes(@"C:\Temp\sample2.txt", bytes2);
+
+            //fs.Close();
+            //ms.Close();
+            //bw.Close();
+            return;
+
             //var res = Dns.GetHostAddresses("mail.ru");
             //foreach (var item in res)
             //{
