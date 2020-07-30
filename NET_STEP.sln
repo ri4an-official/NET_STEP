@@ -15,10 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_SEND", "UDP_SEND\UDP_SE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_GET", "UDP_GET\UDP_GET.csproj", "{5635C4F4-C915-43B6-AF75-5D0B95479AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFTP", "MyFTP\MyFTP.csproj", "{29B48E4D-2E2F-4956-BC45-5C4290CCC57C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streams", "Streams\Streams.csproj", "{D3EDB6F1-27EB-4365-9CA4-59F6A438A2B5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,14 +45,6 @@ Global
 		{5635C4F4-C915-43B6-AF75-5D0B95479AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5635C4F4-C915-43B6-AF75-5D0B95479AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5635C4F4-C915-43B6-AF75-5D0B95479AFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29B48E4D-2E2F-4956-BC45-5C4290CCC57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29B48E4D-2E2F-4956-BC45-5C4290CCC57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29B48E4D-2E2F-4956-BC45-5C4290CCC57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29B48E4D-2E2F-4956-BC45-5C4290CCC57C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3EDB6F1-27EB-4365-9CA4-59F6A438A2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3EDB6F1-27EB-4365-9CA4-59F6A438A2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3EDB6F1-27EB-4365-9CA4-59F6A438A2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3EDB6F1-27EB-4365-9CA4-59F6A438A2B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
